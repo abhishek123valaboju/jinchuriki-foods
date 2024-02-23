@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Order Now - Food Delivery App</title>
+</head>
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF5733;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.order-now {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: black;
+}
+
+.order-now h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.order-now p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.menu-item {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(129, 129, 129);
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.menu-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.menu-item .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF5733;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.menu-item button {
+    background-color: #FF5733;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu-item button:hover {
+    background-color: #E54D26;
+    color: black;
+}
+
+.order-summary {
+    background-color: #f0f0f0;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.order-summary h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.order-summary ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.order-summary li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.order-summary p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #FF5733;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+</style>
+<body>
+    <header>
+        <div class="logo">Food Delivery App</div>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="menu.html"></a>Menu</li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="order-now">
+        <h1>Order Now</h1>
+        <p>Choose your favorite dishes and place your order.</p>
+
+        <div class="menu-item">
+            <img src="miso.png" alt="miso">
+            <h3>Miso</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <span class="price">Rs:399</span>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="sushi.png" alt="Sushi">
+            <h3>Sushi</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <span class="price">Rs:599</span>
+            <button>Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="ramen.png" alt="Ramen">
+            <h3>Ramen</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <span class="price">Rs:449</span>
+            <button>Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="mochi.png" alt="Mochiu">
+            <h3>Mochiu</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <span class="price">Rs:499</span>
+            <button>Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="dango.png" alt="dango">
+            <h3>Dango</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <span class="price">Rs:999</span>
+            <button>Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="soba.png" alt="soba">
+            <h3>Soba</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <span class="price">Rs:259</span>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Add more menu items as needed -->
+
+        <div class="order-summary">
+            <h2>Order Summary</h2>
+            <ul>
+                <!-- The order summary will be dynamically updated as items are added to the cart -->
+            </ul>
+            <p>Total: <span id="totalPrice">$0.00</span></p>
+            <a href="ordersucess.html">
+            <button>Place Order</button>
+            </a>
+        </div>
+    </section>
+
+    <!-- Rest of your content goes here -->
+
+    <footer>
+        <p>&copy; 2024 Food Delivery App</p>
+    </footer>
+</body>
+</html>

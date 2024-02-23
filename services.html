@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jinchuriki Foods</title>
+</head>
+<style>
+    #navbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+  }
+
+  #logo {
+    margin: 0px 0px;
+  }
+      #logo img {
+    margin: 3px 5px;
+    height: 56px;
+  }
+
+     #navbar ul {
+    display: flex;
+    font-family: 'balo bhai', cursive;
+  }
+
+  #navbar::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    left: 0px;
+    top: 0px;
+  }
+
+  #navbar ul li {
+
+
+    list-style: none;
+    font-size: 1.3rem;
+  }
+
+  #navbar ul li a {
+
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+
+  #navbar ul li a:hover {
+    color: white;
+    background-color: black;
+  }
+
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #696969;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    position: absolute;
+  background: url(servicebg.png) no-repeat center center/cover;
+  height: 108%;
+  width: 97%;
+  z-index: -1;
+  opacity: 0.89;
+  left: 0px;
+  top: 250px;
+}
+
+.service {
+    cursor: pointer;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+.service:hover{
+    box-shadow: 0 0 40px rgba(0, 123, 255, 1);
+}
+.service img {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    background-color: #696969;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+</style>
+<body>
+    <div id="logo">
+        <img src="logo.png" alt=" no img">
+      </div>
+
+    <ul>
+        <li class="items"><a href="index44.html">home</a></li>
+        
+        <li class="items"><a href="about us.html">about us</a></li>
+        <li class="items"><a href="contact.html">contact us</a></li>
+        
+      </ul>
+    <header>
+        <h1>Our Services</h1>
+    </header>
+    
+    <section class="services">
+        
+        <a href="menu.html">
+        <div class="service">
+                <img src="menu icon.png" alt="Menu Icon">
+                <h2> Menu</h2>
+                <p>Explore a diverse menu with a wide range of delicious options.</p>
+            </div>
+        </a>
+        
+        <a href="chef.html">
+        <div class="service">
+            <img src="chef.png" alt="Chef Icon">
+            <h2>Experienced Chefs</h2>
+            <p>Our experienced chefs prepare dishes with love and expertise.</p>
+        </div>
+        </a>
+<a href="ourcontact.html">
+
+    <div class="service">
+        <img src="service icon.png" alt="Delivery Icon">
+        <h2>our contact details</h2>
+        <p>At your service,Get your problem solved easily and quickly.</p>
+    </div>
+</a>
+    </section>
+    
+    <footer>
+        <p>&copy; Jinchuriki Online Food Platform</p>
+    </footer>
+</body>
+</html>

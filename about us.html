@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jinchuriki Foods </title>
+    <style>
+      #logo img {
+    margin: 3px 5px;
+    height: 56px;
+  }
+
+     #navbar ul {
+    display: flex;
+    font-family: 'balo bhai', cursive;
+  }
+
+  #navbar::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    left: 0px;
+    top: 0px;
+  }
+
+  #navbar ul li {
+
+
+    list-style: none;
+    font-size: 1.3rem;
+  }
+
+  #navbar ul li a {
+
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+
+  #navbar ul li a:hover {
+    color: white;
+    background-color: black;
+  }
+
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d2cc11;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.positives {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    content: "";
+  position: absolute;
+  background: url(aboutbg.png) no-repeat center center/cover;
+  height: 108%;
+  width: 97%;
+  z-index: -1;
+  opacity: 0.89;
+  left: 0px;
+  top: 250px;
+}
+
+.positive {
+    color: #fff;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    backdrop-filter: blur(9px);
+}
+
+.positive img {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    background-color: #8d18d5;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+</style>
+<body>
+    <div id="logo">
+        <img src="logo.png" alt=" no img">
+      </div>
+
+    <ul>
+        <li class="items"><a href="index44.html">home</a></li>
+        <li class="items"><a href="services.html">service</a></li>
+        
+        <li class="items"><a href="contact.html">contact us</a></li>
+        
+      </ul>
+      <header>
+          <h1>About our Food Delivery App</h1>
+        </header>
+        
+        <section class="positives">
+        <div class="positive">
+            <img src="discount.png" alt="Discounts Icon">
+            <h2>Exclusive Discounts</h2>
+            <p>Unlock special discounts and offers for a budget-friendly dining experience.</p>
+        </div>
+
+        <div class="positive">
+            <img src="logo.png" alt="Fast Delivery Icon">
+            <h2>Quick and Reliable Delivery</h2>
+            <p>Enjoy fast and reliable delivery services right to your doorstep.</p>
+        </div>
+        
+        <div class="positive">
+            <img src="menu icon.png" alt="Diverse Menu Icon">
+            <h2>Diverse Menu Options</h2>
+            <p>Explore a diverse range of cuisines with an extensive menu selection.</p>
+        </div>
+        
+        <div class="positive">
+            <img src="order.png" alt="Easy Ordering Icon">
+            <h2>Simple and Convenient Ordering</h2>
+            <p>Order your favorite dishes with just a few clicks, making it easy and convenient.</p>
+        </div>
+        
+    </section>
+    
+    <footer>
+        <p>&copy; Jinchuriki Food Delivery App</p>
+    </footer>
+</body>
+</html>

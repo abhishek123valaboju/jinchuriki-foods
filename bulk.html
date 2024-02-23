@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bulk orders</title>
+</head>
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black ;
+}
+
+header {
+    background-color: #FF5733;
+    color: #000000;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.bulk-order {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.bulk-order h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.bulk-order p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ddd;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #FF5733;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #E54D26;
+    color: #000000;
+}
+
+footer {
+    background-color: #FF5733;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+</style>
+<body>
+    <header>
+        <div class="logo">Jinchuriki Foods</div>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#menu">Menu</a></li>
+                
+                <li><a href="ourcontact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="bulk-order">
+        <h1>Place a Bulk Order</h1>
+        <p>Order delicious food in bulk for your events and gatherings.</p>
+        <form action="ordersucess.html" method="post">
+            <label for="eventName">Event Name:</label>
+            <input type="text" id="eventName" name="eventName" required>
+
+            <label for="contactPerson">Contact Person:</label>
+            <input type="text" id="contactPerson" name="contactPerson" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="orderDetails">Order Details:</label>
+            <textarea id="orderDetails" name="orderDetails" rows="4" required></textarea>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <!-- Rest of your content goes here -->
+
+    <footer>
+        <p>&copy; Jinchuriki Delivery App</p>
+    </footer>
+</body>
+</html>
