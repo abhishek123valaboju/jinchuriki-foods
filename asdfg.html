@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: black;
+    }
+    .container{
+        width: 50%;
+        height: 500px;
+        display: flex;
+        gap: 5px;
+    }
+    .container img{
+        width: 10%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid white;
+        transition: all ease-out 0.5s;
+        cursor: pointer;
+    }
+
+    .container img:hover{
+     width: 100%;
+    }
+</style>
+<body>
+    <div class="container">
+        <img src="1.png" alt="">
+        <img src="2.png" alt="">
+        <img src="3.png" alt="">
+        <img src="4.png" alt="">
+    </div>
+    
+</body>
+</html>

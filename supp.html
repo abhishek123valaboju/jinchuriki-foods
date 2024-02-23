@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Supplements</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            
+        }
+
+        .supplements-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 1200px;
+        }
+
+        .supplement-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 16px;
+            overflow: hidden;
+            width: 300px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .supplement-card:hover {
+            transform: scale(1.05);
+        }
+
+        .supplement-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .supplement-info {
+            padding: 16px;
+        }
+
+        .supplement-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .supplement-description {
+            color: #666;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="supplements-container">
+       
+        <div class="supplement-card">
+            <img class="supplement-image" src="pro.png" alt="Supplement 1">
+            <div class="supplement-info">
+                <div class="supplement-title">Protein Powder</div>
+                <div class="supplement-description">High-quality protein for muscle recovery and growth.</div>
+            </div>
+        </div>
+        <div class="supplement-card">
+            <img class="supplement-image" src="bc.png" alt="Supplement 2">
+            <div class="supplement-info">
+                <div class="supplement-title">BCAA</div>
+                <div class="supplement-description">Branch Chain Amino Acids for enhanced workout performance.</div>
+            </div>
+        </div>
+        <div class="supplement-card">
+            <img class="supplement-image" src="cr.png" alt="Supplement 2">
+            <div class="supplement-info">
+                <div class="supplement-title">CREATINE</div>
+                <div class="supplement-description">improves muscle size and performance.</div>
+            </div>
+        </div>
+        <div class="supplement-card">
+            <img class="supplement-image" src="pr.png" alt="Supplement 2">
+            <div class="supplement-info">
+                <div class="supplement-title">PREWORK-OUT</div>
+                <div class="supplement-description">gives extra and more strength.</div>
+            </div>
+        </div>
+        <div class="supplement-card">
+            <img class="supplement-image" src="ap.png" alt="Supplement 2">
+            <div class="supplement-info">
+                <div class="supplement-title">APPLE CIDER VINEGAR</div>
+                <div class="supplement-description">helps to reduce the weight.</div>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+</body>
+</html>

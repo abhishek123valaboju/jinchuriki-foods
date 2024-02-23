@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chest Workouts - Gym</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .workouts-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 1200px;
+        }
+
+        .workout-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 16px;
+            overflow: hidden;
+            width: 300px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .workout-card:hover {
+            transform: scale(1.05);
+        }
+
+        .workout-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .workout-info {
+            padding: 16px;
+        }
+
+        .workout-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .workout-description {
+            color: #666;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="workouts-container">
+        <div class="workout-card">
+            <img class="workout-image" src="plu.png" alt="lats Workout 2">
+            <div class="workout-info">
+                <div class="workout-title">Pull ups</div>
+            </div>
+            </div>
+        
+        <div class="workout-card">
+            <img class="workout-image" src="pd.png" alt="lats Workout 1">
+            <div class="workout-info">
+                <div class="workout-title">Wide grip pull downs</div>
+            </div>
+        </div>
+        
+        <div class="workout-card">
+            <img class="workout-image" src="ro.png" alt="lats Workout 1">
+            <div class="workout-info">
+                <div class="workout-title">Rope pull downs</div>
+            </div>
+        </div>
+
+        <div class="workout-card">
+            <img class="workout-image" src="dl.png" alt="lats Workout 2">
+            <div class="workout-info">
+                <div class="workout-title">Barbell Rowings</div>
+                
+            </div>
+        </div>
+        <div class="workout-card">
+            <img class="workout-image" src="crr.png" alt="lats Workout 2">
+            <div class="workout-info">
+                <div class="workout-title">cable rowing</div>
+            </div>
+        </div>
+
+        <div class="workout-card">
+            <img class="workout-image" src="dl.png" alt="lats Workout 2">
+            <div class="workout-info">
+                <div class="workout-title">Dead lift</div>
+            </div>
+        </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

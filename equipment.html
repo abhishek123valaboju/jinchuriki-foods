@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Equipment</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 50px 100px;
+            background:transparent;
+            background: url(eqbg.png);
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .equipment-container {
+            display: flex;
+            overflow-x: auto;
+            scrollbar-width: thin;
+            scrollbar-color: #888 #ddd;
+            white-space: nowrap;
+        }
+
+        .equipment-card {
+            flex: 0 0 300px;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+
+        .equipment-card:hover {
+            transform: scale(1.05);
+            filter: grayscale(0%);
+    box-shadow: 0 0 30px rgb(0, 200, 255);
+        }
+
+        .equipment-image {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .equipment-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .equipment-description {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Fitness Gym</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Classes</a>
+        <a href="#">Trainers</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h1>Gym Equipment</h1>
+        <div class="equipment-container">
+            <div class="equipment-card">
+                <img class="equipment-image" src="thread.png" alt="Equipment 1">
+                <div class="equipment-name">Treadmill</div>
+                <div class="equipment-description">High-quality treadmills for cardio workouts.</div>
+            </div>
+
+            <div class="equipment-card">
+                <img class="equipment-image" src="dumble.png" alt="Equipment 2">
+                <div class="equipment-name">Dumbbells</div>
+                <div class="equipment-description">Various weights of dumbbells for strength training.</div>
+            </div>
+
+            <div class="equipment-card">
+                <img class="equipment-image" src="barbel.png" alt="Equipment 3">
+                <div class="equipment-name">Barbel rods</div>
+                <div class="equipment-description">Various Barbel rods for strength training.</div>
+            </div>
+
+            <div class="equipment-card">
+                <img class="equipment-image" src="chest.png" alt="Equipment 4">
+                <div class="equipment-name">chest press benches</div>
+                <div class="equipment-description">Various adjustable angle for chest training.</div>
+            </div>
+
+            <div class="equipment-card">
+                <img class="equipment-image" src="forearm.png" alt="Equipment 5">
+                <div class="equipment-name">Forearm Machine</div>
+                <div class="equipment-description">Machine for forearm training.</div>
+            </div>
+
+            <div class="equipment-card">
+                <img class="equipment-image" src="cycle.png" alt="Equipment 6">
+                <div class="equipment-name">Cycles</div>
+                <div class="equipment-description">We have 3 types of cycles for legs and cardio training.</div>
+            </div>
+
+            <div class="equipment-card">
+                <img class="equipment-image" src="legpress.png" alt="Equipment 7">
+                <div class="equipment-name">Leg press</div>
+                <div class="equipment-description">We can use this machine for 2 types of leg training.</div>
+            </div>
+
+            <div class="equipment-card">
+                <img class="equipment-image" src="legraise.png" alt="Equipment 8">
+                <div class="equipment-name">Leg Raise</div>
+                <div class="equipment-description">We can use this machine for 2 types of leg training.</div>
+            </div>
+
+            <div class="equipment-card">
+                <img class="equipment-image" src="lats.png" alt="Equipment 9">
+                <div class="equipment-name">Lats pull down machine</div>
+                <div class="equipment-description">we can use this machine for 3-4 types of workouts in this machine</div>
+            </div>
+
+            <!-- Add more equipment cards as needed -->
+
+        </div>
+    </div>
+</body>
+
+</html>

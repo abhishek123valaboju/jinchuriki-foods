@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Trainer List</title>
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background:url(logbg.png);
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .trainer-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .trainer-card {
+            width: 300px;
+            margin: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .trainer-card:hover {
+            transform: scale(1.05);
+        }
+
+        .trainer-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .trainer-details {
+            padding: 15px;
+        }
+
+        .trainer-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .trainer-description {
+            font-size: 1em;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Gym Trainer List</h1>
+    </header>
+
+    <div class="trainer-container">
+        <div class="trainer-card">
+            <img src="tr1.png" alt="Trainer 1" class="trainer-image">
+            <div class="trainer-details">
+                <div class="trainer-name">John Doe</div>
+                <div class="trainer-description">Certified Personal Trainer with 10+ years of experience in
+                    fitness training.</div>
+            </div>
+        </div>
+
+        <div class="trainer-card">
+            <img src="tr2.png" alt="Trainer 2" class="trainer-image">
+            <div class="trainer-details">
+                <div class="trainer-name">Jane Smith</div>
+                <div class="trainer-description">Specialized in weight loss and strength training programs.</div>
+            </div>
+        </div>
+
+        <div class="trainer-card">
+            <img src="tr3.png" alt="Trainer 2" class="trainer-image">
+            <div class="trainer-details">
+                <div class="trainer-name">Satyajit Chaurasia</div>
+                <div class="trainer-description">Specialized in weight loss and strength training programs.</div>
+            </div>
+        </div>
+
+        <div class="trainer-card">
+            <img src="tr4.png" alt="Trainer 2" class="trainer-image">
+            <div class="trainer-details">
+                <div class="trainer-name">Samir Jaura</div>
+                <div class="trainer-description">Specialized in weight loss and strength training programs.</div>
+            </div>
+        </div>
+
+        <!-- Add more trainer cards as needed -->
+
+    </div>
+</body>
+
+</html>

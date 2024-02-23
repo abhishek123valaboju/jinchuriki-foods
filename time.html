@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Workout Timetable</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .timetable-container {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-template-rows: auto;
+            gap: 16px;
+            max-width: 1200px;
+        }
+
+        .day-label {
+            grid-column: span 1;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .workout-slot {
+            grid-column: span 1;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .workout-slot:hover {
+            transform: scale(1.05);
+        }
+
+        .workout-info {
+            padding: 16px;
+        }
+
+        .workout-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .workout-time {
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="timetable-container">
+        <!-- Day Labels -->
+        <div class="day-label">Monday</div>
+        <div class="day-label">Tuesday</div>
+        <div class="day-label">Wednesday</div>
+        <div class="day-label">Thursday</div>
+        <div class="day-label">Friday</div>
+        <div class="day-label">Saturday</div>
+        <div class="day-label">Sunday</div>
+
+        <!-- Workout Slots -->
+        <!-- Monday -->
+        <div class="workout-slot">
+            <div class="workout-info">
+                <div class="workout-title">Cardio Workout</div>
+                <div class="workout-time">10:00 AM - 11:00 AM</div>
+            </div>
+        </div>
+        <div class="workout-slot">
+            <div class="workout-info">
+                <div class="workout-title">Chest</div>
+                <div class="workout-time">10:00 AM - 11:00 AM</div>
+            </div>
+        </div>
+        <div class="workout-slot">
+            <div class="workout-info">
+                <div class="workout-title">Back</div>
+                <div class="workout-time">10:00 AM - 11:00 AM</div>
+            </div>
+        </div>
+        <div class="workout-slot">
+            <div class="workout-info">
+                <div class="workout-title">Shoulder</div>
+                <div class="workout-time">10:00 AM - 11:00 AM</div>
+            </div>
+        </div>
+        <div class="workout-slot">
+            <div class="workout-info">
+                <div class="workout-title">Biceps and Triceps</div>
+                <div class="workout-time">10:00 AM - 11:00 AM</div>
+            </div>
+        </div>
+        <div class="workout-slot">
+            <div class="workout-info">
+                <div class="workout-title">Legs</div>
+                <div class="workout-time">10:00 AM - 11:00 AM</div>
+            </div>
+        </div>
+        <div class="workout-slot">
+            <div class="workout-info">
+                <div class="workout-title">REST DAY</div>
+                
+            </div>
+        </div>
+
+        <!-- Repeat the above structure for the rest of the days and workouts -->
+
+    </div>
+
+</body>
+</html>

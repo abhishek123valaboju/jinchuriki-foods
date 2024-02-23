@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Gym Classes</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        
+        nav {
+            background-color: #444;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+
+
+        .classes-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 1200px;
+        }
+
+        .class-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 16px;
+            overflow: hidden;
+            width: 300px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .class-card:hover {
+            transform: scale(1.05);
+        }
+
+        .class-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .class-info {
+            padding: 16px;
+        }
+
+        .class-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .class-details {
+            color: #666;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fitness Zone Gym</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="classes.html">Classes</a>
+        <a href="trainer.html">Trainers</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="classes-container">
+        <a href="chest.html">
+        <div class="class-card">
+            <img class="class-image" src="che.png" alt="Class 1">
+            <div class="class-info">
+                <div class="class-title">chest Workout</div>
+                <div class="class-details">High-Intensity Interval Training for a full-body workout.</div>
+            </div>
+        </div>
+        </a>
+
+        <a href="lats.html">
+        <div class="class-card">
+            <img class="class-image" src="ba.png" alt="Class 1">
+            <div class="class-info">
+                <div class="class-title">lats Workout</div>
+                <div class="class-details">High-Intensity Interval Training for a full-body workout.</div>
+            </div>
+        </div>
+        </a>
+
+        <a href="shoulder.html">
+        <div class="class-card">
+            <img class="class-image" src="sh.png" alt="Class 1">
+            <div class="class-info">
+                <div class="class-title">shoulder Workout</div>
+                <div class="class-details">High-Intensity Interval Training for a full-body workout.</div>
+            </div>
+        </div>
+        </a>
+        
+        <a href="bicep.html">
+        <div class="class-card">
+            <img class="class-image" src="bt.png" alt="Class 1">
+            <div class="class-info">
+                <div class="class-title">bicep-tricep Workout</div>
+                <div class="class-details">High-Intensity Interval Training for a full-body workout.</div>
+            </div>
+        </div>
+        </a>
+
+        <a href="legs.html">
+        <div class="class-card">
+            <img class="class-image" src="lg.png" alt="Class 1">
+            <div class="class-info">
+                <div class="class-title">legs Workout</div>
+                <div class="class-details">High-Intensity Interval Training for a full-body workout.</div>
+            </div>
+        </div>
+        </a>
+
+        <a href="abs.html">
+        <div class="class-card">
+            <img class="class-image" src="ab.png" alt="Class 1">
+            <div class="class-info">
+                <div class="class-title">cardio Workout</div>
+                <div class="class-details">High-Intensity Interval Training for a full-body workout.</div>
+            </div>
+        </div>
+        </a>
+       
+    
+
+</body>
+</html>
